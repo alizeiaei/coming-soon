@@ -31,7 +31,7 @@ video{
 
 .bg-color{
     height: 100%;
-    width: 87%;
+    width: 90%;
     background: #2a5555;
     opacity: 0.4;
     position: absolute;
@@ -43,13 +43,13 @@ video{
 .bg-prograf{
     color: white;
     position: absolute;
-    top: 200px;
-    left: 220px;
+    top: 20%;
+    left: 13%;
 }
 
 h1{
     font-size:55px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--bs-body-font-family);
 }
 
 .bg-p{
