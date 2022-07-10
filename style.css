@@ -1,0 +1,132 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+
+
+
+video{
+    position:absolute;
+    background-size: cover;
+    opacity: 0.6;
+    top: 0px;
+    right: 0px;
+    margin: 0%;
+    clip-path: polygon(60% 0,100% 0, 100% 100%,51% 100%);
+}
+
+.bg-color{
+    height: 100%;
+    width: 87%;
+    background: #2a5555;
+    opacity: 0.4;
+    position: absolute;
+    right: 0%;
+    clip-path:polygon(60% 0,100% 0, 100% 100%,51% 100%) ;
+    margin: 0%;
+}
+
+.bg-prograf{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+
+h1{
+    font-size:55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-p{
+    margin-top: 25px;
+}
+
+p{
+    font-size:20px;
+}
+
+.bg-button{
+    position: absolute;
+    display: flex;
+    top: 330px;
+    width: 100%;
+    width: 1000px;
+    height: 60px;
+    gap: 20px;
+}
+
+input{
+    width: 310px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+button{
+    background-color:#2a5555 !important;
+    width: 130px;
+    font-size: 20px;
+}
+
+i{
+    color: white;
+    font-size: 17px;
+}
+
+.font-button{
+    background-color: black !important;
+    border: none;
+    text-align: center;
+    border-radius: 80%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 75px;
+    top: 280px;
+}
+
+.font-button-2{
+    background-color: black !important;
+    border: none;
+    text-align: center;
+    border-radius: 80%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 75px;
+    top: 380px;
+}
+
+.font-button-3{
+    background-color: black !important;
+    border: none;
+    text-align: center;
+    border-radius: 80%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 75px;
+    top: 480px;
+}
+
+@media screen and(max-widht:1000px) {
+    .bg-button{
+        display: none;
+    }
+}

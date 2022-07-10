@@ -1,0 +1,70 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+
+.bg{
+    height: auto;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+
+.bg-text{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+input{
+    border-radius: 8px;
+    width: 55%;
+    padding-left: 10px;
+}
+
+button{
+    width: 35%;
+    font-size: 19px !important;
+    background-color:#2a5555 !important ;
+}
+
+
+.question{
+    position: absolute;
+    top: 330px;
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    width: 100%;
+    height: 70px;
+}
+
+.bg-vidio{
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 0%;
+}
+
+video{
+    position: relative;
+    top: 50px;
+    right: 150px;
+    background-size: cover;
+}
